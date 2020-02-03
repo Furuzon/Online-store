@@ -1,0 +1,129 @@
+@font-face {
+    font-family: fontBlog;
+    src: url(../fonts/JosefinSans-SemiBold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 4%;
+    font-family: fontBlog;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+nav {
+    height: 10vh;
+}
+
+.menu-ul {
+    display: none;
+}
+
+header nav a p {
+    margin-top: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #000;
+}
+
+#navbarNav {
+    display: none;
+}
+
+#logo {
+    text-align: center;
+    display: block;
+}
+
+.cart {
+    text-transform: uppercase;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: fontBlog;
+    font-weight: bold;
+}
+
+.lorem__blog__header {
+    font-size: 20px;
+    font-family: fontBlog;
+}
+
+.news__category {
+    font-size: 20px;
+}
+
+.blog__title {
+    margin-top: 125px;
+}
+
+.blog__news img {
+    width: 103%;
+    height: 100%;
+}
+
+.blog__news p {
+    font-family: fontBlog;
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.article__blog__2 {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/**footer*/
+
+footer {
+    margin-top: 5.5rem;
+    font-family: fontBlog;
+}
+
+.footer h4 {
+    font-weight: bold;
+}
+
+.footer h5 {
+    font-weight: bold;
+}
+
+.footer-firs-list li {
+    margin-top: 0.3rem;
+}
+
+.footer-firs-list a {
+    color: #000;
+}
+
+.footer-firs-list a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.f,
+.s {
+    display: block;
+}
